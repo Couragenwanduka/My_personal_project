@@ -1,0 +1,48 @@
+h1{
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  color: #e16522;
+  
+}
+h3{
+  text-align: center;
+  font-size: 40px;
+  color: #104C64;
+ 
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #104C64;
+}
+p{
+  font-size: 30px;
+  max-width: 100%;
+  min-height: 100%;
+  inline-size: 70%;
+  overflow-wrap: break-word;
+  text-align: center;
+  margin-left: 220px;
+  color: #B6410F;
+}
+body{
+  background-color: #FED9B7;
+  background-image: linear-gradient(290deg,#0D1D25,#104C64,#C6C6D0,#D59D80,#C0754D,#B6410F);
+}
+h1,h3,h2{
+  font-family: "font";
+}
+p{
+  font-family: "new";
+  font-style: italic;
+}
+@font-face{
+  font-family: "font";
+  src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+}
+@font-face{
+  font-family: "new";
+  src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand&display=swap');
+}

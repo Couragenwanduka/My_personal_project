@@ -1,0 +1,131 @@
+body{
+  background-color: #FED7A5;
+  inline-size: 100%;
+  overflow-wrap: break-word;
+  background-image: linear-gradient( 66deg, #9E6752,#534145,#2D4354,#73766A,#20212B);
+}
+
+@font-face{
+  font-family: "courage";
+  src: url('https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display:wght@400;500&display=swap') ;
+}
+@font-face{
+  font-family: "nduka";
+  src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+}
+p{
+font-size: larger;
+font-family:"courage" ;
+padding-left: 20px;
+color: #73766A;
+}
+@keyframes header{
+  from{left: 0px;};
+  to{left: 500px};
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: "nduka";
+  color: #FED7A5;
+  text-transform: uppercase;
+  text-decoration: dashed;
+ 
+}
+.two{
+  margin: 8px 0;
+  padding: 20px 12px;
+  display: block;
+  width: 90%;
+  margin-left: 50px;
+  background-color:#2D4354;
+  background-image: linear-gradient( 40deg, #9E6752,#534145,#2D4354,#73766A,#20212B);
+  border: none;
+  border-bottom: 2px solid ;
+  border-radius: 20px;
+  color: aliceblue;
+  font-size: 20px;
+}
+label{
+  margin-left: 50px;
+  font-size: 20px;
+}
+.four{
+  inline-size: 500px;
+  overflow-wrap: break-word;
+}
+button{
+  align-items: center;
+  justify-self: center;
+margin-left: 40%;
+background-color: transparent;
+padding: 20px;
+border-radius: 20px;
+color: #9E6752;
+font-size: 20px; 
+border: none; 
+}
+a{
+  text-decoration: none;
+  color: #20212B;
+}
+
+
+.five{
+  margin: 8px 0;
+  padding: 90px 12px;
+  display: block;
+  width: 90%;
+  margin-left: 50px;
+  background-color:#2D4354;
+  background-image: linear-gradient( 40deg, #9E6752,#534145,#2D4354,#73766A,#20212B);
+  border: none;
+  border-bottom: 2px solid ;
+  border-radius: 20px;
+  inline-size: 92%;
+  overflow-wrap: break-word;
+}
+
+
+.div{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: relative;
+  background-color: transparent;
+  animation-name: example;
+  animation-duration: 25s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  background-image: url(https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=626&ext=jpg&ga=GA1.2.449842877.1704912101&semt=ais);
+  background-position: center;
+  background-size: 90%;
+}
+
+@keyframes example {
+  0%   {background-color:#9E6752; left:0px; top:0px;}
+  25%  {background-color:#534145; left:90%; top:0px;}
+  50%  {background-color:#2D4354; left:90%; top:900px;}
+  75%  {background-color:#20212B; left:0px; top:900px;}
+  100% {background-color:#73766A; left:0px; top:0px;}}
+
+  .div2{
+    width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: relative;
+  background-color: transparent;
+  animation-name: example1;
+  animation-duration: 25s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  background-image: url(https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg);
+  background-position: center;
+  background-size: 90%;
+  }
+  @keyframes example1 {
+    0%   {background-color:#9E6752; left:0px; top:0px;}
+    25%  {background-color:#534145; left:90%; top:0px;}
+    50%  {background-color:#2D4354; left:90%; top:900px;}
+    75%  {background-color:#20212B; left:0px; top:900px;}
+    100% {background-color:#73766A; left:0px; top:0px;}}

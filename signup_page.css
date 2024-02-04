@@ -10,7 +10,6 @@ body{
 background-image: url(https://images.unsplash.com/photo-1505682634904-d7c8d95cdc50?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 position: relative;
 isolation: isolate;
-mix-blend-mode: multiply;
 height:750px;
 border:5px white solid;
 border-radius: 40px;
@@ -33,6 +32,7 @@ display: flex;
   margin-top: 20px;
   position: relative;
   top: 6px;
+  cursor: pointer;
 }
 .three{
   color: white;
@@ -61,6 +61,7 @@ span{
   padding: 20px;
   color: white;
   font-size: 20px;
+  cursor: pointer;
 }
 .eight{
   backdrop-filter: blur(15px);
@@ -105,4 +106,5 @@ span{
   border: none;
   font-size: 25px;
   text-transform: capitalize;
+  cursor: pointer;
 }
